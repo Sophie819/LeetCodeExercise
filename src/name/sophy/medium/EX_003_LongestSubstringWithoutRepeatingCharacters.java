@@ -1,4 +1,4 @@
-package name.sophy.easy;
+package name.sophy.medium;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -7,33 +7,36 @@ import java.util.HashSet;
  * 第三题：Given a string, find the length of the longest substring without repeating characters.
  * 先按照自己想的朴素的想法做一遍，再看solution，不然总是先看答案有什么意义呢
  */
-public class EX_3 {
-////!!!!!!time limitation!!!!!!时间复杂度在n^3
-//	public int lengthOfLongestSubstring(String s) {
-//		int tempMaxLenght = 0;
-//		for(int i = 0; i < s.length(); i++){
-//			for(int j = i; j < s.length(); j++){
-//				if(!haveDuplicatedCharaters(s, i, j)){
-//					tempMaxLenght = (tempMaxLenght > j - i + 1)?tempMaxLenght:(j - i + 1);
-//				}
-//			}
-//		}
-//		return tempMaxLenght;
-//    }
-//	
-//	public boolean haveDuplicatedCharaters(String s, int begin, int end){
-//		HashSet<Character> charSet = new HashSet<Character>();
-//		for(int i = begin; i <= end; i++){
-//			Character tempChar = s.charAt(i);
-//			if(charSet.contains(tempChar))
-//				return true;
-//			else {
-//				charSet.add(tempChar);
-//			}
-//		}
-//		return false;
-//	}
+public class EX_003_LongestSubstringWithoutRepeatingCharacters {
+/* 
+ * time limitation!!!!!!时间复杂度在n^3
+ */
+	/*
+	public int lengthOfLongestSubstring(String s) {
+		int tempMaxLenght = 0;
+		for(int i = 0; i < s.length(); i++){
+			for(int j = i; j < s.length(); j++){
+				if(!haveDuplicatedCharaters(s, i, j)){
+					tempMaxLenght = (tempMaxLenght > j - i + 1)?tempMaxLenght:(j - i + 1);
+				}
+			}
+		}
+		return tempMaxLenght;
+    }
 	
+	public boolean haveDuplicatedCharaters(String s, int begin, int end){
+		HashSet<Character> charSet = new HashSet<Character>();
+		for(int i = begin; i <= end; i++){
+			Character tempChar = s.charAt(i);
+			if(charSet.contains(tempChar))
+				return true;
+			else {
+				charSet.add(tempChar);
+			}
+		}
+		return false;
+	}
+	*/
 	//链接：https://www.nowcoder.com/questionTerminal/5947ddcc17cb4f09909efa7342780048 来源：牛客网
 
 		/*

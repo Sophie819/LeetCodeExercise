@@ -1,13 +1,14 @@
-package name.sophy.easy;
+package name.sophy.hard;
 /*
  * 2018.03.09
  * There are two sorted arrays nums1 and nums2 of size m and n respectively.
  * Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
  */
-public class EX_4 {
+public class EX_004_MedianOfTwoSortedArrays {
 	/*
 	 * 方法一：这是最基本的方法，遍历两个数组，时间复杂度是O(m+n),其实并没有达到题目要求
-	 * 方法二：分治，时间复杂度是O(log(m+n))
+	 * 方法二：分治，时间复杂度是O(log(m+n))????????????
+	 * https://blog.csdn.net/hk2291976/article/details/51107543
 	 */
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int length1 = nums1.length;
@@ -58,7 +59,7 @@ public class EX_4 {
     }
     
     public static void main(String[] args) {
-		EX_4 ex_4 = new EX_4();
+		EX_004_MedianOfTwoSortedArrays ex_4 = new EX_004_MedianOfTwoSortedArrays();
 		int[] nums1 = {1};
 		int[] nums2 = {1};
 		System.out.println("The median is " + ex_4.findMedianSortedArrays(nums1, nums2));
