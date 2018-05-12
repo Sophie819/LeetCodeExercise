@@ -4,7 +4,7 @@ package name.sophy.hard;
 * @version	2018年5月10日 下午6:17:15 
 * Introduction of the class:
 */
-public class EX_10_RegularExpressionMatching {
+public class EX_010_RegularExpressionMatching {
 	public boolean isMatch(String s, String p) {
         
 		return false;

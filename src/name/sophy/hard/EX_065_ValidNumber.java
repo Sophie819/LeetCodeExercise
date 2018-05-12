@@ -4,7 +4,7 @@ package name.sophy.hard;
 * @version	2018年5月10日 下午4:44:51 
 * Introduction of the class:
 */
-public class EX_65_ValidNumber {
+public class EX_065_ValidNumber {
 	public static boolean isNumber(String s) {
         //需要考虑小数点，e,+-等特殊情况
 		//判断每个字符
