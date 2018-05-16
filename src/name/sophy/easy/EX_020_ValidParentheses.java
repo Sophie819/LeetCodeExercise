@@ -4,9 +4,9 @@ import java.util.Stack;
 /** 
 * @author	Fei Shao Email:fshao@smail.nju.edu.cn
 * @version	2018年3月16日 下午8:51:30 
-* Introduction of the class:
+* Introduction of the class:匹配左右括号，用栈完成
 */
-public class EX_20 {
+public class EX_020_ValidParentheses {
 	 public boolean isValid(String s) {
 		 Stack<Character> stack = new Stack<Character>();
 		 for(int i = 0; i < s.length(); i++){

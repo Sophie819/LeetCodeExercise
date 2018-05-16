@@ -4,9 +4,10 @@ package name.sophy.easy;
 * @version	2018年3月15日 下午8:30:43 
 * Introduction of the class: 啊人家代码写的那么简洁，你写的这么杂乱有多！！！
 */
-public class EX_14 {
+public class EX_014_LongestCommonPrefix {
 	public String longestCommonPrefix(String[] strs) {
-		if(strs.length == 0)
+        /*纵向搜索
+        if(strs.length == 0)
 			return "";
         int shortestLength = Integer.MAX_VALUE;
 		for(int i = 0; i < strs.length; i++){
@@ -15,7 +16,7 @@ public class EX_14 {
 		}
 		if(shortestLength == 0)
 			return "";
-		System.out.println(shortestLength);
+		
 		String tempCommonPrefix = "";
 		int count = 0;
 		for(int i = 0 ; i < shortestLength; i++){
@@ -27,13 +28,18 @@ public class EX_14 {
 			tempCommonPrefix += tempChar;
 			count++;
 		}
-		return tempCommonPrefix;
+		return tempCommonPrefix;*/
+        
+        //横向搜索
+        if(strs == null || strs.length == 0)    return "";
+        String pre = strs[0];
+        int i = 1;
+        while(i < strs.length){
+            while(strs[i].indexOf(pre) != 0)
+                pre = pre.substring(0,pre.length()-1);
+            i++;
+        }
+        return pre;
     }
-	
-public static void main(String[] args) {
-	String [] strs = {"abab","aba","abc"};
-	EX_14 ex_14 = new EX_14();
-	System.out.println(ex_14.longestCommonPrefix(strs));
-}
 }
  

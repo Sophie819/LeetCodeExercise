@@ -3,8 +3,16 @@ package name.sophy.medium;
 * @author	Fei Shao Email:fshao@smail.nju.edu.cn
 * @version	2018年3月15日 下午8:30:43 
 * Introduction of the class: int型转化为罗马数字
+* Symbol       Value
+	I             1
+	V             5
+	X             10
+	L             50
+	C             100
+	D             500
+	M             1000
 */
-public class EX_12 {
+public class EX_012_IntegerToRoman {
 	public String intToRoman(int num) {
 		String[][] list={
                 {"","I","II","III","IV","V","VI","VII","VIII","IX"},//1~9

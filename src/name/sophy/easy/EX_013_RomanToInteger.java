@@ -29,7 +29,7 @@ import java.util.HashMap;
 	3、小的数字，（限于Ⅰ、X 和C）在大的数字的左边，所表示的数等于大数减小数得到的数，如：Ⅳ= 4；Ⅸ= 9；
 	4、正常使用时，连写的数字重复不得超过三次。
 */
-public class EX_13 {
+public class EX_013_RomanToInteger {
 	public int romanToInt(String s) {
 		if (s == null || s.length() == 0)
 	        return 0;
