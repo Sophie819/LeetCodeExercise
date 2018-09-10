@@ -1,4 +1,4 @@
-package name.sophy.easy;
+package name.sophy.leetcode;
 /*
  * 2017.11.03
  * 下午好困，就练习几道题目吧。

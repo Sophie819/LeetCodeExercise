@@ -1,4 +1,4 @@
-package name.sophy.easy;
+package name.sophy.leetcode;
 
 /** 
 * @author	Fei Shao Email:fshao@smail.nju.edu.cn

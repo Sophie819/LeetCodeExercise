@@ -1,4 +1,4 @@
-package name.sophy.easy;
+package name.sophy.leetcode;
 import java.util.ArrayList;
 
 /** 

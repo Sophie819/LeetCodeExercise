@@ -1,4 +1,4 @@
-package name.sophy.easy;
+package name.sophy.leetcode;
 /*
  * 2018.03.09
  * There are two sorted arrays nums1 and nums2 of size m and n respectively.

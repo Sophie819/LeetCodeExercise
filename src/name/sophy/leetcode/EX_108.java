@@ -1,4 +1,4 @@
-package name.sophy.easy;
+package name.sophy.leetcode;
 
 import java.util.LinkedList;
 import java.util.List;
