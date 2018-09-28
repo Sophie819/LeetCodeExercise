@@ -1,4 +1,4 @@
-package name.sophy.jianzhioffer; 
+package name.sophy.common; 
 /** 
 * @author	Fei Shao Email:fshao@smail.nju.edu.cn
 * @version	2018年3月20日 下午5:26:46 
@@ -7,9 +7,9 @@ package name.sophy.jianzhioffer;
 
 //Definition for singly-linked list.
   public class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) {
+      public int val;
+      public ListNode next;
+      public ListNode(int x) {
           val = x;
           next = null;
       }

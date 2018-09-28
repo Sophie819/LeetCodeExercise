@@ -1,5 +1,5 @@
 package name.sophy.jianzhioffer;
-
+import name.sophy.common.*;
 import java.util.Stack;
 
 /** 

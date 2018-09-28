@@ -1,4 +1,5 @@
 package name.sophy.jianzhioffer; 
+import name.sophy.common.*;
 /** 
 * @author	Fei Shao Email:fshao@smail.nju.edu.cn
 * @version	2018年4月16日 下午5:51:10 
